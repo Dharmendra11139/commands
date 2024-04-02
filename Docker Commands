@@ -1,0 +1,5 @@
+data backup throug docker volume Host:container
+# docker run -it --name container1 -v myvol:/tmp ubuntu
+# docker volume create myvol       cd var/lib/docker/volumes/myvol   in myvol their will be _data file in side that data will be their
+
+
