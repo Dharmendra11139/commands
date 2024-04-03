@@ -3,3 +3,6 @@ data backup throug docker volume Host:container
 # docker volume create myvol       cd var/lib/docker/volumes/myvol   in myvol their will be _data file in side that data will be their
 
 
+#to untaint the master or any worker node
+kubectl taint node ip-172-31-85-33 node-role.kubernetes.io/control-plane:NoSchedule-
+
